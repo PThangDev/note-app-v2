@@ -2,7 +2,7 @@ import { lazy } from 'react';
 
 import { routePaths } from 'src/configs';
 import AuthLayout from 'src/layouts/AuthLayout';
-import { AuthRouter } from './OuterRoute';
+import { AuthRouter } from './components/OuterRoute';
 
 const LoginPage = lazy(() => import('src/pages/auth/login'));
 const RegisterPage = lazy(() => import('src/pages/auth/register'));

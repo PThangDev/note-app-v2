@@ -1,2 +1,2 @@
 export { default } from './routes';
-export { default as generateRoutes } from './generateRoutes';
+export { default as PageRoutes } from './components/PageRoutes';
