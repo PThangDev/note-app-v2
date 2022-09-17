@@ -1,13 +1,12 @@
 import { FC } from 'react';
-import { Routes } from 'react-router-dom';
-import { generateRoutes } from './routes';
+import PageRoutes from './routes/components/PageRoutes';
 
 interface Props {}
 
 const App: FC<Props> = (props) => {
   return (
     <div className="app">
-      <Routes>{generateRoutes()}</Routes>
+      <PageRoutes />
     </div>
   );
 };
