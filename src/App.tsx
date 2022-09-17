@@ -3,7 +3,7 @@ import { FC } from "react";
 interface Props {}
 
 const App: FC<Props> = (props) => {
-  return <div>App</div>;
+  return <div className="app"></div>;
 };
 
 export default App;
