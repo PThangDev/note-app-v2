@@ -1,7 +1,7 @@
-import { FC, ReactNode } from "react";
-import classnames from "classnames/bind";
+import { FC, ReactNode } from 'react';
+import classnames from 'classnames/bind';
 
-import styles from "./EmptyLayout.module.scss";
+import styles from './EmptyLayout.module.scss';
 
 interface Props {
   children: ReactNode;
@@ -10,7 +10,7 @@ interface Props {
 const cx = classnames.bind(styles);
 
 const EmptyLayout: FC<Props> = ({ children }) => {
-  return <div className={cx("wrapper")}>{children}</div>;
+  return <div className={cx('wrapper')}>{children}</div>;
 };
 
 export default EmptyLayout;
