@@ -3,9 +3,9 @@ import classnames from "classnames/bind";
 
 import styles from "./Template.module.scss";
 
-const cx = classnames.bind(styles);
-
 interface Props {}
+
+const cx = classnames.bind(styles);
 
 const Template: FC<Props> = (props) => {
   return <div className={cx("wrapper")}>Template</div>;
